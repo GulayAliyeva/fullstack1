@@ -1,0 +1,67 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#dataDisplay {
+    margin: 20px auto; 
+    width: 100%; 
+ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+
+    width: 450px; 
+     margin: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; 
+    text-align: left; 
+}
+
+.card-img-top {
+    width: 100%;
+    height:250px ; 
+
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+.men-clothing-card{
+    background-color:black;
+    color: white;
+}
+.women-clothing-card .card-text{
+
+  
+    color: white;
+    
+}
+.women-clothing-card {
+    background-color: hotpink;
+    color: white;
+}
+.btn{
+    padding: 5px;
+    background-color: gold;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+}
