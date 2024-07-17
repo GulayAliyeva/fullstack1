@@ -1,0 +1,69 @@
+.card {
+  width: 350px;
+  height: 700px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+}
+
+p {
+  font-size: small;
+  color: lightblue;
+}
+
+table {
+ 
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  position: relative;
+}
+
+th {
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#search {
+  background-color: navy;
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  border-color: transparent;
+  color: white; 
+}
+
+.header {
+  width: 350px;
+  height: 150px;
+  color: white;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.api-details {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
