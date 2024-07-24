@@ -1,0 +1,106 @@
+
+/*divin icinde olan h3lerin fontunu deyisir */
+div>h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    }
+    div{
+         width: 500px;
+       
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    }
+    /* first classina sahib olan divlerin rengini brown edir */
+     div.first{
+         background-color: brown;
+     }
+     /*HTMlde olan butun h1 teqlerinin altindan xett cekir */
+    h1{
+        text-decoration: underline;
+    }
+    /*classa sahib olan h1 teqlerinin rengini deyisir */
+    h1[class]{
+        margin-left: 30px;
+    }
+    /* card ve second classi  olan teqlerin rengini red edir */
+    .card.second{
+    
+        background-color: red;
+      
+    }
+    /* idsi olan teqlerin rengini chocolate edir */
+    [id]{
+     background-color: chocolate;
+    
+    }
+    /* third id-ne sahib olan div teqlerinin fontunu deyisir */
+    div#third{
+    
+       font-family: 'Courier New', Courier, monospace;
+    }
+    .fourth{
+    background-color: blue;
+    }
+    /*HTMlde olan yalniz fifth classli teqlerin rengini midnightblue edir */
+    .fifth{
+        background-color: midnightblue;
+    }
+    /*4cu lint elementlerinin rengini deyisir */
+    li:nth-child(4) {
+        color: aquamarine;
+      }
+    /* listin sonuncu elementinin rengini deyisir*/
+    li:last-child {
+        color: chartreuse;
+      
+      }
+    /*h3 teqinden derhal sonra gelen ht teqlerinin fontunu asagidaki kimi deyisir*/
+    h3+h4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    /*h3den sonra gelen plerin altindan xett cekir*/
+    h3~p{
+     
+     text-decoration: underline;
+    
+    
+    }
+    /* aktiv linkin rengin deyisir*/
+    a:active{
+        color: cyan;
+    
+    }
+    /*linki ziyaret edene kimi rengin darkslategray edir*/
+    a:link{
+        color: darkslategray;
+        text-decoration: none;
+    }
+    /*linki ziyaret edenden sonra rengin blueviolet edir */
+    a:visited{
+        color: blueviolet;
+    }
+    /*linkin uzerine geldikde altindan xett cekir*/
+    a:hover{
+    text-decoration: underline;
+    }
+    /* divin icerisinde yerlesen butun ul teqlerinin rengini asagidaki kimi edir*/
+    body ul {
+        color:rgb(131, 152, 14);
+      }
+    /*h2 ve pre teqlerinin textinin fontunu deyisir*/
+    h2,pre{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* article teqinin icerisinde yerlesen ikinci h2 teqinde olan textin ilk setrinin altindan xett cekir */
+    
+    article h2:nth-child(2)::first-line{
+     text-decoration: underline;
+    
+    }
+    /* firstElement classi olan li elementinin font style-ni italic edir */
+    li[class="firstElement"]{
+       font-style: italic;
+    
+    }
+    
