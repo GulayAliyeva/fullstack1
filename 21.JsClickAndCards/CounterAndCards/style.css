@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    
+   flex-direction: column;
+   
+    margin: 0;
+  align-items: center;
+}
+#mainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+    
+    padding: 20px;
+    text-align: center;
+}
+#controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+#numberDisplay {
+    font-size: 48px;
+    margin: 0 20px;
+}
+#resetButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: dodgerblue;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+     color: white;
+    border-radius: 4px;
+}
+
+#textInputSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+}
+#textInput {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#textList {
+    margin-top: 20px;
+
+    padding: 0;
+}
+#textList li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+#addBtn{
+    color:black;
+    background-color:goldenrod;
+    margin-top: 20px;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+.delete-btn{
+
+    background-color: red;
+}
+.cardInput input{
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+  width: 600px;
+  height: 25px;
+  padding: 5px;
+  
+}
+.card {
+    background-color: white;
+ 
+   
+    width: 200px; 
+    flex-shrink: 0; 
+}
+.card img {
+    max-width: 100%;
+
+    margin-bottom: 10px;
+}
+#cardContainer{
+    display: flex;
+            flex-wrap: wrap; 
+            justify-content: flex-start;
+   
+            max-width: 1200px; 
+            gap: 10px;
+            margin-top: 10px;
+}
