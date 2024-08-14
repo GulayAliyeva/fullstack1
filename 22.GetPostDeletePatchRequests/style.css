@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+ 
+ 
+}
+
+.putPatchForms{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+tr.table-active {
+    background-color: #f9f9f9;
+}
