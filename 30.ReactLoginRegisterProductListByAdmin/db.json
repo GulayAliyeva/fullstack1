@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "securepassword",
+      "isAdmin": false
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "mypassword",
+      "isAdmin": false
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "price": 25.99,
+      "stockCount": 100,
+      "sale": true
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "price": 89.99,
+      "stockCount": 50,
+      "sale": false
+    },
+    {
+      "id": 3,
+      "name": "USB-C Hub",
+      "price": 49.99,
+      "stockCount": 75,
+      "sale": true
+    },
+    {
+      "id": 4,
+      "name": "4K Monitor",
+      "price": 299.99,
+      "stockCount": 5,
+      "sale": false
+    },
+    {
+      "id": "03be226d-beb5-47bc-a58d-385fedbb1fae",
+      "name": "hdhd",
+      "price": "12",
+      "stockCount": "34",
+      "sale": false
+    }
+  ]
+}
