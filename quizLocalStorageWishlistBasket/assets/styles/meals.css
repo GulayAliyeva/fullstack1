@@ -1,0 +1,25 @@
+
+.productList{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+      gap: 20px;
+       margin-top: 200px;
+       margin: auto 0;
+    }
+    .favorite-btn{
+        border: none;
+    }
+    .modeBtn{
+        padding: 10px 30px;
+    }
+    .d-flex{
+        display: flex;
+        gap: 10px;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }

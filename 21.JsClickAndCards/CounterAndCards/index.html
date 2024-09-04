@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainBox">
+        <div id="controls">
+            <button id="decrementButton" style="background-color: green;" onclick="decrement()">-</button>
+            <div id="numberDisplay">0</div>
+            <button id="incrementButton" style="background-color: green;"    onclick="increment()">+</button>
+        </div>
+      
+    </div>
+
+    <button id="resetButton" onclick="reset()">Reset</button>
+
+
+
+    <div id="textInputSection">
+        <div>
+            <input type="text" id="textInput" placeholder="Check name length" oninput="validateInput()">
+            <button onclick="addText()" id="addBtn" disabled>Add</button>
+        </div>
+        <div id="errorMessage" class="error-message">error</div>
+    </div>
+    <ul id="textList"></ul>
+
+
+   <h1>Cards</h1>
+    <div class="cardInput"   style="margin-top: 20px;">
+        <label for="fullName">Full Name</label>
+      <div><input type="text" id="fullName" placeholder="enter name"></div>  
+      <label for="image">Image Link</label>
+       <div><input type="text" id="image" placeholder="enter image link"></div> 
+        <label for="age">Age</label>
+      <div> <input type="number" id="age" placeholder="enter age">
+      </div> 
+  
+    </div>
+    <button onclick="addCard()" id="addBtn">Add Card</button>
+    <div id="cardContainer"></div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

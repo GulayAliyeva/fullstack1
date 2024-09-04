@@ -1,0 +1,106 @@
+@media (max-width: 991px) {
+    .sprite--logo-dark {
+        margin-top: 0;
+        width: 28px;
+        height: 30px;
+    }
+}
+.header{
+    width: 100%;
+}
+.sprite--logo-dark {
+    background-image: url("/assets/img/logonew-orange1.png");
+}
+@media (max-width: 991px) {
+    .topbar__logo-w {
+        margin-right: 0;
+    }
+}
+.topbar__flexbox {
+    width: auto;
+    display: flex !important;
+    align-items: center;
+}
+.mobbar {
+    background: #fafafa;
+    padding: 13px 0;
+    z-index: 1111;
+    position: relative;
+}
+.mobbar__right {
+    float: right;
+    display: flex;
+}
+.mobbar_dd{
+    background-image: url(	"file:///C:/Users/Aspire/Downloads/download.svg");
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1176px;
+        padding: 0;
+    }
+}
+.menubar {
+    margin-bottom: 10px;
+}
+.menubar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubar__menus {
+    float: left;
+}
+.menubar__tools {
+    display: flex;
+}
+.menubar__menu {
+    float: left;
+    padding: 30px 15px;
+}
+.menubar__menu--first {
+    padding-left: 0;
+}
+
+.menubar__link {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+.topbar__hotline {
+    display: inline-flex !important;
+    align-items: center;
+    margin-right: 30px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    font-weight: 600;
+    height: 45px;
+}
+.button--md {
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.button {
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+    background: 0 0;
+    display: inline-flex;
+}
+.frontbanner {
+    max-height: 768px;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.frontbanner .fotorama {
+    overflow: visible;
+}
+.fotorama__stage__frame {
+    overflow: hidden;
+}
+.fotorama__wrap--slide .fotorama__stage__frame {
+    opacity: 1 !important;
+}
