@@ -1,0 +1,15 @@
+.card-body{
+
+    background-color: rgb(201, 192, 192);
+    color: white;
+}
+
+
+
+.modeBtn{
+    padding: 10px 30px;
+}
+.d-flex{
+    display: flex;
+    gap: 10px;
+}

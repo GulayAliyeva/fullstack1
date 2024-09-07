@@ -1,0 +1,30 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-body{
+    height: 200px ;  
+    overflow: hidden;  
+    
+  
+}
+.modeBtn{
+    padding: 10px 30px;
+}
+.d-flex{
+    display: flex;
+    gap: 10px;
+}
+.productList{
+
+display: flex;
+ flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.favorite-btn{
+    border: none;
+}
