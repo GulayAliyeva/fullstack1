@@ -1,0 +1,51 @@
+.imageContainer{
+
+    position: relative;
+    width: 100%;
+  text-align: center;
+
+}
+.Title{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.caption{
+    position: absolute;
+    bottom: 10px; 
+   
+   color: white;
+   font-size: 24px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+   margin-top:35px;
+}
+.shopNow {
+    position: absolute;
+    opacity: 0;
+    
+    text-decoration: underline;
+    transition: all .4s ease-out 0s;
+    color: #CEBD9C ;
+    
+    font-size: 16px;
+  
+  }
+  
+  .imageContainer:hover .shopNow {
+    opacity: 1;
+    bottom: 20px;
+  }
+  
+ 
+  .imageContainer:hover .caption{
+    bottom: 40px;
+  }

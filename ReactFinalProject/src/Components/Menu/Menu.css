@@ -1,0 +1,42 @@
+.blackPart{
+
+    background-color: black;
+    height: 44px;
+}
+
+@media (max-width: 991.98px) {
+   
+    .slicknav_menu{
+      display: block;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  
+    .slicknav_menu {
+  display: none;
+    }
+  }
+
+  @media (min-width: 992px) {
+  
+    .text-center {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+    }
+  }
+  @media (max-width: 991.98px) {
+   
+    .text-center{
+      display: none;
+    }
+  }
+  .slicknav_btn {
+    margin: 5px 5px 6px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .75);
+  float: right;
+    border-radius: 4px;
+    background-color: #222;
+}

@@ -1,0 +1,88 @@
+ 
+ a{
+    text-decoration: none !important;
+    color: #BBB9B5 !important;
+ }
+ 
+ 
+
+.btn{
+  background-color: red !important;
+  color: white !important;
+}
+
+.footerWrapper {
+   background-color: #171613;
+}
+
+.footerArea {
+   padding: 50px 0;
+}
+
+.subscribeArea {
+   margin-bottom: 30px;
+}
+
+.subscribeCaption h3 {
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.subscribeCaption p {
+   margin-bottom: 20px;
+}
+
+.subscribeBtn {
+   background-color: #007bff; 
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+.footerSocial a {
+   margin: 0 10px;
+   color: #333; /
+}
+
+.singleFooterCaption {
+   margin-bottom: 50px;
+}
+
+
+ .footerTittle h4 {
+   color: #ffffff;
+   font-size: 18px;
+   margin-bottom: 30px;
+   font-weight: 400;
+}
+
+
+.footerTittle ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+}
+
+.footerTittle ul li {
+   margin-bottom: 10px;
+}
+
+.footerTittle ul li a {
+ 
+   color: #BBB9B5;
+   font-weight: 400;
+   font-size: 16px;
+   text-decoration: underline transparent;
+}
+
+.footerBottomArea {
+   border-top: 1px solid #ddd;
+   padding: 20px 0;
+}
+
+.footerCopyRight {
+   text-align: center;
+   color: #999; 
+}

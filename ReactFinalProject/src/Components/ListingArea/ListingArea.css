@@ -1,0 +1,50 @@
+
+
+.imageContainer2 {
+    position: relative !important;
+    text-align: center !important;
+  }
+  
+  .imageContainer2:hover .icons {
+    opacity: 1 !important;
+  }
+  
+  .icons {
+    display: flex !important;
+    flex-direction: row !important;
+    position: absolute !important;
+    opacity: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: all 0.4s ease-out !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    bottom: 20px !important;
+  }
+  
+  .icon {
+    background-color: white !important;
+    width: 64px !important;
+    height: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 24px !important;
+  }
+  
+  .icon:hover {
+    background-color: red !important;
+  }
+  
+  .item-img {
+    display: block !important;
+
+    transition: transform 0.3s ease !important;
+    width: 270px; 
+    height: 270px; 
+    object-fit: cover;
+  }
+
+  
+
+  

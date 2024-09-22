@@ -1,0 +1,55 @@
+.testimonialArea {
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+    background: #F3EAD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiperContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .captionH2 {
+    font-size: 34px;
+    text-align: center; 
+  }
+  
+  .paragraphContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonialFounder {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center; 
+  
+  }
+  
+  .founderImg {
+    width: 63px;
+    height: 63px;
+    margin-bottom: 10px; 
+  }
+
+  
+  .founderText span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .founderText p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+ .paragraph{
+
+   width: 450px;
+ }

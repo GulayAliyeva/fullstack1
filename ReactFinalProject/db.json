@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "adminpass", 
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "userpass1", 
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "password": "userpass2", 
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "username": "user3",
+      "password": "userpass3", 
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack",
+      "category": "Men",
+      "description": "Perfect pack for everyday use and walks in the forest. Fits laptops up to 15 inches.",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "sale": false,
+      "type": "Backpack",
+      "size": "15L",
+      "color": "Black",
+      "trending": true,
+      "price": 600
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Slim Fit T-Shirt",
+      "category": "Men",
+      "description": "Slim-fitting style with a comfortable and breathable fabric.",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "sale": true,
+      "type": "T-Shirt",
+      "size": "M",
+      "color": "White",
+      "trending": true,
+      "price": 22.99
+    },
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "category": "Men",
+      "description": "Great jacket for autumn and winter outdoor activities.",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "sale": true,
+      "type": "Jacket",
+      "size": "L",
+      "color": "Green",
+      "trending": false,
+      "price": 55.99
+    },
+    {
+      "id": 4,
+      "title": "Women’s 3-in-1 Snowboard Jacket",
+      "category": "Women",
+      "description": "Detachable liner fabric with a warm fleece, perfect for cold weather.",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "sale": true,
+      "type": "Jacket",
+      "size": "L",
+      "color": "Blue",
+      "trending": true,
+      "price": 95.99
+    },
+    {
+      "id": 5,
+      "title": "Lock and Love Women's Faux Leather Jacket",
+      "category": "Women",
+      "description": "Stylish faux leather jacket with detachable hood.",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "sale": true,
+      "type": "Jacket",
+      "size": "M",
+      "color": "Black",
+      "trending": false,
+      "price": 300.00
+    },
+    {
+      "id": 6,
+      "title": "Women's Sleeveless Tank Top",
+      "category": "Women",
+      "description": "Lightweight, sleeveless tank top, perfect for summer.",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "sale": false,
+      "type": "Tank Top",
+      "size": "S",
+      "color": "Red",
+      "trending": false,
+      "price": 19.99
+    },
+    {
+      "id": 7,
+      "title": "Baby Cotton Onesie",
+      "category": "Baby",
+      "description": "Soft cotton onesie perfect for infants.",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "sale": false,
+      "type": "Onesie",
+      "size": "6-12 months",
+      "color": "Pink",
+      "trending": true,
+      "price": 15.99
+    },
+    {
+      "id": 8,
+      "title": "Baby Winter Romper",
+      "category": "Baby",
+      "description": "Warm and cozy romper for babies, ideal for winter.",
+      "image": "https://fakestoreapi.com/img/71WZhmFKFzL._AC_UL1500_.jpg",
+      "sale": true,
+      "type": "Romper",
+      "size": "6-12 months",
+      "color": "Blue",
+      "trending": false,
+      "price": 29.99
+    }
+  ]
+}
